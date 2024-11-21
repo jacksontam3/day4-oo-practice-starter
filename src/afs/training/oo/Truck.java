@@ -8,6 +8,7 @@ public class Truck extends Vehicle {
         super(name,speed);
     }
 
+    @Override
     public void SpeedUp() {
         speed += Acceleration;
         System.out.printf("%s: speed up to %d km/h\n",name, speed);
