@@ -10,7 +10,7 @@ public class Bus extends Vehicle {
     }
 
     @Override
-    public void SpeedUp() {
+    public void speedUp() {
         speed += engine.getAcceleration();
         System.out.printf("%s: speed up to %d km/h\n",name, speed);
     }

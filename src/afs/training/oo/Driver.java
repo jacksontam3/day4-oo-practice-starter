@@ -17,6 +17,6 @@ public class Driver {
     }
 
     public void drive() {
-        vehicle.SpeedUp();
+        vehicle.speedUp();
     }
 }

@@ -11,6 +11,6 @@ public class Vehicle {
         this.speed = speed;
     }
 
-    public void SpeedUp() {
+    public void speedUp() {
     }
 }

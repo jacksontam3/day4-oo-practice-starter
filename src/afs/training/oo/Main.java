@@ -10,8 +10,7 @@ public class Main {
         driver.setVehicle(new Bus("Cool Bus with electric engine", 25, electricEngine));
         driver.drive();
 
-        Truck truck = new Truck("Big Truck", 20);
-        driver.setVehicle(truck);
+        driver.setVehicle(new Truck("Big Truck", 20));
         driver.drive();
 
 
